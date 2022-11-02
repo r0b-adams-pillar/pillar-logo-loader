@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pillar-logo-loader/static/css/main.336142d8.css",
+    "main.js": "/pillar-logo-loader/static/js/main.7ddeb83b.js",
+    "static/media/lato-all-400-normal.woff": "/pillar-logo-loader/static/media/lato-all-400-normal.3dc1eff492ab1f598560.woff",
+    "static/media/lato-latin-400-normal.woff2": "/pillar-logo-loader/static/media/lato-latin-400-normal.be36596da218e1eec01c.woff2",
+    "static/media/lato-latin-ext-400-normal.woff2": "/pillar-logo-loader/static/media/lato-latin-ext-400-normal.361f3dbb9db6a5980326.woff2",
+    "index.html": "/pillar-logo-loader/index.html",
+    "main.336142d8.css.map": "/pillar-logo-loader/static/css/main.336142d8.css.map",
+    "main.7ddeb83b.js.map": "/pillar-logo-loader/static/js/main.7ddeb83b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.336142d8.css",
+    "static/js/main.7ddeb83b.js"
+  ]
+}
