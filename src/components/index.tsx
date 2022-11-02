@@ -1,0 +1,1 @@
+export { PillarLogo } from "./PillarLogo";
