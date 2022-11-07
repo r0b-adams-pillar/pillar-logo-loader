@@ -1,6 +1,6 @@
 import { ChakraProvider, Flex } from "@chakra-ui/react";
 import { theme } from "./theme";
-import { PillarLogo } from "./components/PillarLogo";
+import { LogoLoader } from "./components/LogoLoader_v2";
 
 const App = () => {
   return (
@@ -14,21 +14,21 @@ const App = () => {
       >
         <Flex bgColor="gray.100" p="lg" borderRadius="3xl">
           <Flex w="600px" align="center" justify="space-evenly">
-            <PillarLogo
+            <LogoLoader
               size={256}
               loader
               altColors
               withBackground
-              loopDuration={1}
+              loopDuration={2}
               loopDelay={0}
             />
 
-            <PillarLogo
+            <LogoLoader
               size={256}
               loader
               withBackground
               loopDuration={1}
-              loopDelay={0}
+              loopDelay={0.25}
             />
           </Flex>
         </Flex>

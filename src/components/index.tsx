@@ -1,1 +1,1 @@
-export { PillarLogo } from "./PillarLogo";
+export { LogoLoader } from "./LogoLoader_v2";

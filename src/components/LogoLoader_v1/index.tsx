@@ -6,7 +6,7 @@ import { paths } from "./paths";
 import { LogoSvg } from "./LogoSvg";
 import { LogoBackground } from "./LogoBackground";
 
-interface IPillarLogo {
+interface ILogoLoader {
   size?: number;
   loader?: boolean;
   altColors?: boolean;
@@ -15,12 +15,12 @@ interface IPillarLogo {
   loopDelay?: number;
 }
 
-export const PillarLogo: React.FC<IPillarLogo> = ({
+export const LogoLoader: React.FC<ILogoLoader> = ({
   size = 128,
   loader = false,
   altColors = false,
   withBackground = true,
-  loopDuration = 1,
+  loopDuration = 1.5,
   loopDelay = 0,
 }): JSX.Element => {
   const { colors } = useTheme();
